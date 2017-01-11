@@ -43,13 +43,12 @@
   text-align: left;
   width: 782px;
   height: 380px;
-  background-color: #79C1E7;
+  background-color: #4797C4;
   color: white;
   font-weight: lighter;
   padding: 8px 46px 8px 46px;
   border: 8px solid #FFFFFF;
-  border-radius: 30px;
-
+  border-radius: 20px;
 
 }
 
@@ -74,9 +73,12 @@
 }
 
 .date{
+  position: relative;
+  right: -90px;
   color: #E2E2E2;
   font-size: 15px;
   vertical-align: top;
+  text-align: right;
 
 
 }
@@ -94,4 +96,28 @@
 
 .left-block img{
   margin-right: -31px;
+}
+
+
+.routine-task::after{
+  content: '';
+  display: block;
+  border: 10px solid transparent;
+  width: 0;
+  height: 0;
+  border-right-color: #4797C4;
+  position: relative;
+  left: -65px;
+  top: -330px;
+
+}
+
+::after:hover{
+  transition-duration: 2s;
+  background-color: #79C1E7;
+}
+
+.routine-task:hover{
+  transition-duration: 2s;
+  background-color: #79C1E7;
 }
