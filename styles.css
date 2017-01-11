@@ -6,7 +6,8 @@
 
   body{
     font-family: Helvetica, Arial, sans-serif;
-    margin: 0;
+    margin-left: 0;
+    margin-top: 25px;
 
   }
 
@@ -14,8 +15,9 @@
     max-width: 100%;
     width: 55px;
     height: 55px;
-    border: 10px solid #79C1E7;
-    border-radius: 100px
+    border: 8px solid #79C1E7;
+    border-radius: 100px;
+    background-color: white;
 
   }
 
@@ -25,6 +27,16 @@
     list-style: none;
   }
 
+  hr{
+    display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid #E2E2E2;
+   margin: 1em 0;
+   padding: 0;
+  }
+
+
 
 .routine-task{
   display: inline-block;
@@ -33,9 +45,11 @@
   height: 380px;
   background-color: #79C1E7;
   color: white;
-  padding: 8px;
+  font-weight: lighter;
+  padding: 8px 46px 8px 46px;
   border: 8px solid #FFFFFF;
   border-radius: 30px;
+
 
 }
 
@@ -46,6 +60,10 @@
   float: left;
   width: 250px;
   height: 380px;
+  border-right: 8px solid #79C1E7;
+  margin-right: 25px;
+
+
 }
 
 .nav{
@@ -64,7 +82,16 @@
 }
 
 .time{
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 35px;
   color: #79C1E7;
+}
+
+.header{
+  font-weight: normal;
+  margin-bottom: -3px;
+}
+
+.left-block img{
+  margin-right: -31px;
 }
